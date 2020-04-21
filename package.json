@@ -7,20 +7,20 @@
   "license": "UNLICENCED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Surajkamdi"
+    "url": "https://github.com/Surajkamdi/days-calculator-reactjs"
   },
   "keywords": [
     "App",
     "SurajKamdi",
     "Suraj",
     "Kamdi",
-	"Day",
-	"Calculator",
-	"Day Calculator",
-	"React JS",
-	"React",
-	"npm",
-	"js"
+    "Day",
+    "Calculator",
+    "Day Calculator",
+    "React JS",
+    "React",
+    "npm",
+    "js"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -34,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,5 +52,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "homepage": "http://surajkamdi.github.io/days-calculator-reactjs"
 }
