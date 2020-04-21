@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Days Calculator by Suraj</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script src="https://use.fontawesome.com/2fa40fcdc7.js"></script>
+    </head>
+    <body>
+        <div class="date--time--row">
+            <div class="container">
+                <div class="heading-h1">
+                    <h1>Days Calculator</h1>
+                </div>
+                <div class="form-container">
+                    <div class="field-group">
+                        <label class="field-label" for="fromDate">From Date</label
+                        ><br>
+                        <input
+                            class="input--field"
+                            type="text"
+                            id="fromDate"
+                            name="fromDate"
+                            title="Select From Date"/>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                    <div class="field-group">
+                        <label class="field-label" for="toDate">To Date</label><br>
+                        <input
+                            class="input--field"
+                            type="text"
+                            id="toDate"
+                            name="toDate"
+                            title="Select To Date"/>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                    <div class="field-group checkbox--group">
+                        <label class="field-label checkbox--field" for="excludeSunday">Exclude Sunday
+                        <input type="checkbox" id="excludeSunday" name="excludeSunday" value="excludeSunday">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="field-label checkbox--field" for="excludeSaturday">Exclude Saturday
+                         <input type="checkbox" id="excludeSaturday" name="excludeSaturday" value="excludeSaturday">
+                             <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <button type="button" name="calculate" class="calculate-btn">Calculate</button>
+                    <div class="result--container">
+                        <h2>100 Days</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading-h1">
+                    <h1>Time Calculator</h1>
+                </div>
+                <div class="form-container">
+                    <div class="field-group">
+                        <label class="field-label" for="fromTime">From Time</label
+                        ><br>
+                        <input
+                            class="input--field"
+                            type="text"
+                            id="fromTime"
+                            name="fromTime"
+                            title="Select From Time"/>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="field-group">
+                        <label class="field-label" for="toTime">To Time</label><br>
+                        <input
+                            class="input--field"
+                            type="text"
+                            id="toTime"
+                            name="toTime"
+                            title="Select To Date"/>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <button type="button" name="calculate" class="calculate-btn">Calculate</button>
+                    <div class="result--container">
+                        <h2>1 Hrs 20 min 10 Sec</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
