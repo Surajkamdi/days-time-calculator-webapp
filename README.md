@@ -1,5 +1,5 @@
 # Days Calculator Developed Using reactjs
-Calculate the total days between two dates. WebApp Made By Suraj Kamdi.
+Calculate Total Days and Time between two intervals.. WebApp Made By Suraj Kamdi.
 
 ###Add some screenshots and description here
 
