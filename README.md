@@ -1,4 +1,4 @@
-# Days Calculator Developed Using reactjs
+# Days & Time Calculator Developed Using reactjs
 Calculate Total Days and Time between two intervals.. WebApp Made By Suraj Kamdi.
 
 ###Add some screenshots and description here
