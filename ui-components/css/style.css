@@ -65,6 +65,9 @@ html {
     font-size: 14px;
     width: 90%;
 }
+.field-group > i{
+    font-size: 20px;
+}
 .form-container .calculate-btn {
     background-image: linear-gradient(
         to right,
@@ -148,11 +151,17 @@ html {
     transform: rotate(45deg);
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 1024px) {
     .container {
         max-width: 800px;
     }
+    .container .form-container {
+        padding-left: 140px;
+    }
     .form-container .calculate-btn {
-        margin-left: 170px;
+        margin-left: 125px;
+    }
+    .form-container .result--container {
+        font-size: 20px;
     }
 }
