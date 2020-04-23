@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/days-time-calculator-reactjs/static/css/main.bcaf4922.chunk.css",
-    "main.js": "/days-time-calculator-reactjs/static/js/main.bd5147fa.chunk.js",
-    "main.js.map": "/days-time-calculator-reactjs/static/js/main.bd5147fa.chunk.js.map",
+    "main.css": "/days-time-calculator-reactjs/static/css/main.e49faea8.chunk.css",
+    "main.js": "/days-time-calculator-reactjs/static/js/main.2f633868.chunk.js",
+    "main.js.map": "/days-time-calculator-reactjs/static/js/main.2f633868.chunk.js.map",
     "runtime-main.js": "/days-time-calculator-reactjs/static/js/runtime-main.ae335d1f.js",
     "runtime-main.js.map": "/days-time-calculator-reactjs/static/js/runtime-main.ae335d1f.js.map",
     "static/css/2.b90ce945.chunk.css": "/days-time-calculator-reactjs/static/css/2.b90ce945.chunk.css",
-    "static/js/2.c71a11f1.chunk.js": "/days-time-calculator-reactjs/static/js/2.c71a11f1.chunk.js",
-    "static/js/2.c71a11f1.chunk.js.map": "/days-time-calculator-reactjs/static/js/2.c71a11f1.chunk.js.map",
+    "static/js/2.3ac92b68.chunk.js": "/days-time-calculator-reactjs/static/js/2.3ac92b68.chunk.js",
+    "static/js/2.3ac92b68.chunk.js.map": "/days-time-calculator-reactjs/static/js/2.3ac92b68.chunk.js.map",
     "index.html": "/days-time-calculator-reactjs/index.html",
-    "precache-manifest.c0392d729dc8a35a5f5ad7a626c1544e.js": "/days-time-calculator-reactjs/precache-manifest.c0392d729dc8a35a5f5ad7a626c1544e.js",
+    "precache-manifest.5af4c5bac6392d8481de103acaa936d4.js": "/days-time-calculator-reactjs/precache-manifest.5af4c5bac6392d8481de103acaa936d4.js",
     "service-worker.js": "/days-time-calculator-reactjs/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/days-time-calculator-reactjs/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.bcaf4922.chunk.css.map": "/days-time-calculator-reactjs/static/css/main.bcaf4922.chunk.css.map",
-    "static/js/2.c71a11f1.chunk.js.LICENSE.txt": "/days-time-calculator-reactjs/static/js/2.c71a11f1.chunk.js.LICENSE.txt"
+    "static/css/main.e49faea8.chunk.css.map": "/days-time-calculator-reactjs/static/css/main.e49faea8.chunk.css.map",
+    "static/js/2.3ac92b68.chunk.js.LICENSE.txt": "/days-time-calculator-reactjs/static/js/2.3ac92b68.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ae335d1f.js",
     "static/css/2.b90ce945.chunk.css",
-    "static/js/2.c71a11f1.chunk.js",
-    "static/css/main.bcaf4922.chunk.css",
-    "static/js/main.bd5147fa.chunk.js"
+    "static/js/2.3ac92b68.chunk.js",
+    "static/css/main.e49faea8.chunk.css",
+    "static/js/main.2f633868.chunk.js"
   ]
 }
