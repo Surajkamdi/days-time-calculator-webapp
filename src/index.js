@@ -8,6 +8,7 @@ import ReactGA from 'react-ga';
 /**
  * Google Analytics Code.
  */
+ReactGA.initialize('G-5LR83M4MJ0');
 ReactGA.initialize('UA-164371994-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
