@@ -121,6 +121,7 @@ html {
     left: 0;
     height: 25px;
     width: 25px;
+    border-radius: 10px;
     background-color: #cec9ccee;
 }
 .checkbox--field:hover input ~ .checkmark {

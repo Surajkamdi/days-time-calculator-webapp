@@ -13,20 +13,24 @@ function DaysCalculator() {
     const [result, setResult] = useState(0);
     const [excludeSunday, isExcludeSunday] = useState(false);
     const [excludeSaturday, isExcludeSaturday] = useState(false);
-    
+
     /**
      * Function for calculating Total Days.
      * @param {event} e 
      */
     function calculateTotalDays(e) {
         e.preventDefault();
+        //checkValidations
+        checkValidations();
         let totalDays = 0;
+        
         if (fromDate !== "" && toDate !== "") {
             const SINGLE_DAY = 1000 * 60 * 60 * 24;
             const differences = Math.abs(fromDate - toDate);
             let total = Math.round(differences / SINGLE_DAY);
             let excludedSundays = totalWekendDays(0);
-            let excludedSaturdays = totalWekendDays(1);
+            let excludedSaturdays = totalWekendDays(6);
+
             if (excludeSunday && !excludeSaturday) {
                 totalDays = total - excludedSundays;
                 setResult(++totalDays);
@@ -34,9 +38,9 @@ function DaysCalculator() {
                 totalDays = total - excludedSaturdays;
                 setResult(++totalDays);
             } else if (excludeSunday && excludeSaturday) {
-                totalDays = total - (excludedSundays + excludedSaturdays);
+                totalDays = total - excludedSundays - excludedSaturdays;
                 setResult(++totalDays);
-            }else{
+            } else {
                 setResult(++total);
             }
         }
@@ -49,15 +53,29 @@ function DaysCalculator() {
     function totalWekendDays(dayNumber) {
         let weekendDayCount = 0;
         let currenDate = new Date(fromDate);
-        if (currenDate.getDay() === dayNumber)
-            weekendDayCount = 1;
 
-        while (currenDate <= toDate) {
+        if (currenDate.getDay() === dayNumber){
+            weekendDayCount = 1;
+        }
+
+        console.log("initial =" +weekendDayCount );
+        while (currenDate < toDate) {
             currenDate.setDate(currenDate.getDate() + 1);
-            if (currenDate.getDay() === dayNumber)
+            if (currenDate.getDay() === dayNumber){
                 weekendDayCount++;
+            }       
         }
         return weekendDayCount;
+    }
+
+    /**
+     * Form Validations.
+     */
+    function checkValidations(){
+        if(fromDate > toDate){
+            alert("From Date should not be greater than To Date");
+        }
+        return false;
     }
 
     return (
