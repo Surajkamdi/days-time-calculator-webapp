@@ -1,6 +1,6 @@
 {
-  "name": "days-calculator",
-  "description": "Calculate the total days between two dates. WebApp Made By Suraj Kamdi",
+  "name": "days-time-calculator",
+  "description": "Calculate the total days and Time between two intervals. React Js WebApp developed by Suraj Kamdi",
   "version": "0.1.0",
   "private": true,
   "author": "Er. Suraj Kamdi",
@@ -26,7 +26,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
+    "react-datepicker": "^2.14.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
@@ -35,8 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
