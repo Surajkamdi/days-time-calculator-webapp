@@ -7,7 +7,7 @@
   "license": "UNLICENCED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Surajkamdi/days-calculator-reactjs"
+    "url": "https://surajkamdi.github.io/days-time-calculator-reactjs/"
   },
   "keywords": [
     "App",
@@ -58,5 +58,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-  "homepage": "http://surajkamdi.github.io/days-calculator-reactjs"
+  "homepage": "https://surajkamdi.github.io/days-time-calculator-reactjs/"
 }
