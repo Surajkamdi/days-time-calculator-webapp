@@ -1,34 +1,43 @@
-.react-datepicker__tab-loop{
-    display: inline-block;
+.react-datepicker__tab-loop {
+  display: inline-block;
 }
-.react-datepicker{
-    border-radius: 0px;
-    border-top-left-radius: none;
-    border-top-right-radius: none;
-    border: 1px solid #fff;
-    box-shadow: 5px 5px 20px #5d4b4bbd;
+.react-datepicker {
+  border-radius: 0px;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 20px #5d4b4bbd;
 }
-.react-datepicker__day-name, .react-datepicker__current-month,.react-datepicker__week{
-    font-family: "Baloo Tamma 2", cursive;
-    color: #fff;
+.react-datepicker {
+  font-family: "Baloo Tamma 2", cursive;
 }
-.react-datepicker__header,.react-datepicker__day--keyboard-selected,.react-datepicker__day--selected{
-       background-image: linear-gradient(
-            to right,
-            #f857a6 0%,
-            #ff5858 51%,
-            #f857a6 100%
-        );    
-} 
-.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before{
-    border-bottom-color: #ff5858;
+.react-datepicker__day-name,
+.react-datepicker__current-month,
+.react-datepicker__week,
+.react-datepicker-time__header {
+  color: #fff;
 }
-.react-datepicker__navigation--previous{
-    border-right-color: #fff;
+.react-datepicker__header,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--selected {
+  background-image: linear-gradient(
+    to right,
+    #f857a6 0%,
+    #ff5858 51%,
+    #f857a6 100%
+  );
 }
-.react-datepicker__navigation--next{
-    border-left-color: #fff;
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before {
+  border-bottom-color: #ff5858;
 }
-.react-datepicker__day--outside-month{
-    color: #c5c0c0;
+.react-datepicker__navigation--previous {
+  border-right-color: #fff;
+}
+.react-datepicker__navigation--next {
+  border-left-color: #fff;
+}
+.react-datepicker__day--outside-month {
+  color: #c5c0c0;
 }

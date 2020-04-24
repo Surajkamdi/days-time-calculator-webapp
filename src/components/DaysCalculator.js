@@ -130,7 +130,7 @@ function DaysCalculator() {
                     </label>
                 </div>
                 <button
-                    onClick={calculateTotalDays}
+                    onClick={event => calculateTotalDays(event)}
                     type="button"
                     name="calculate"
                     className="calculate-btn">Calculate
