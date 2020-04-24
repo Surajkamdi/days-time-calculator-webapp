@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50821442ac4b4283a0f2b777ddb78900",
+    "revision": "b2b738a9f6f6924465e41fe830036fd4",
     "url": "/days-time-calculator-webapp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/days-time-calculator-webapp/static/css/2.b90ce945.chunk.css"
   },
   {
-    "revision": "a3581575f08731f2a60a",
-    "url": "/days-time-calculator-webapp/static/css/main.70e398ee.chunk.css"
+    "revision": "ed3314ecd8ec72e667cd",
+    "url": "/days-time-calculator-webapp/static/css/main.ab132880.chunk.css"
   },
   {
     "revision": "4232a88f9f716a1ec498",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/days-time-calculator-webapp/static/js/2.66a57a67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3581575f08731f2a60a",
+    "revision": "ed3314ecd8ec72e667cd",
     "url": "/days-time-calculator-webapp/static/js/main.176b1ecc.chunk.js"
   },
   {

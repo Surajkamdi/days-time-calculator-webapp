@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/days-time-calculator-webapp/static/css/main.70e398ee.chunk.css",
+    "main.css": "/days-time-calculator-webapp/static/css/main.ab132880.chunk.css",
     "main.js": "/days-time-calculator-webapp/static/js/main.176b1ecc.chunk.js",
     "main.js.map": "/days-time-calculator-webapp/static/js/main.176b1ecc.chunk.js.map",
     "runtime-main.js": "/days-time-calculator-webapp/static/js/runtime-main.9b894502.js",
@@ -9,17 +9,17 @@
     "static/js/2.66a57a67.chunk.js": "/days-time-calculator-webapp/static/js/2.66a57a67.chunk.js",
     "static/js/2.66a57a67.chunk.js.map": "/days-time-calculator-webapp/static/js/2.66a57a67.chunk.js.map",
     "index.html": "/days-time-calculator-webapp/index.html",
-    "precache-manifest.d2112cd6eedeb150bd088e37dd26e98d.js": "/days-time-calculator-webapp/precache-manifest.d2112cd6eedeb150bd088e37dd26e98d.js",
+    "precache-manifest.7d065619e0d44c7c2e171b18c89ef07b.js": "/days-time-calculator-webapp/precache-manifest.7d065619e0d44c7c2e171b18c89ef07b.js",
     "service-worker.js": "/days-time-calculator-webapp/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/days-time-calculator-webapp/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.70e398ee.chunk.css.map": "/days-time-calculator-webapp/static/css/main.70e398ee.chunk.css.map",
+    "static/css/main.ab132880.chunk.css.map": "/days-time-calculator-webapp/static/css/main.ab132880.chunk.css.map",
     "static/js/2.66a57a67.chunk.js.LICENSE.txt": "/days-time-calculator-webapp/static/js/2.66a57a67.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9b894502.js",
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.66a57a67.chunk.js",
-    "static/css/main.70e398ee.chunk.css",
+    "static/css/main.ab132880.chunk.css",
     "static/js/main.176b1ecc.chunk.js"
   ]
 }
