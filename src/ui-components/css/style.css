@@ -1,171 +1,231 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
 html {
-    margin: 0 auto;
-    font-family: "Baloo Tamma 2", cursive;
-    color: #000;
-    /*    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,98,128,1) 0%, rgba(248,129,135,1) 98.3% );*/
+  margin: 0 auto;
+  font-family: "Baloo Tamma 2", cursive;
+  color: #000;
+  /*    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,98,128,1) 0%, rgba(248,129,135,1) 98.3% );*/
 
-    background-color: #ff9a8b;
-    background-image: linear-gradient(
-        90deg,
-        #ff9a8b 0%,
-        #ff6a88 55%,
-        #ff99ac 100%
-    );
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
 
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .date--time--row {
-    width: 100%;
+  width: 100%;
 }
 .container {
-    margin-left: 85px;
-    margin-top: 50px;
-    background-color: #fff;
-    border: 1px solid #fff;
-    width: 100%;
-    box-shadow: 5px 5px 20px #5d4b4bbd;
-    border-radius: 15px;
-    max-width: 530px;
-    min-height: 510px;
-    float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  box-shadow: 5px 5px 20px #5d4b4bbd;
+  border-radius: 15px;
+  max-width: 530px;
+  min-height: 510px;
+  float: left;
 }
 .container .heading-h1 {
-    font-size: 12px;
-    color: #666;
-    text-align: center;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
 }
 .container .form-container {
-    padding-left: 70px;
-    margin-top: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
 }
 .form-container .field-group {
-    position: relative;
-    margin-bottom: 32px;
-    border-bottom: 1px solid #e5e5e5;
-    width: 80%;
-    color: #666;
-    font-size: 16px;
-    font-weight: 600;
+  position: relative;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e5e5e5;
+  width: 80%;
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
 }
 .field-group .input--field {
-    padding: 9px 0;
-    outline: none;
-    margin: 0;
-    border: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    font-size: 14px;
-    width: 320px;
+  padding: 9px 0;
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  width: 300px;
 }
-.field-group > i{
-    font-size: 20px;
-    float: right;
-    margin-right: 20px;
+.field-group > i {
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
 }
 .form-container .calculate-btn {
-    background-image: linear-gradient(
-        to right,
-        #f857a6 0%,
-        #ff5858 51%,
-        #f857a6 100%
-    );
-    box-shadow: 2px 2px 6px #775f6a;
-    border: 1px solid #f857a6;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 60px;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    #f857a6 0%,
+    #ff5858 51%,
+    #f857a6 100%
+  );
+  box-shadow: 2px 2px 6px #775f6a;
+  border: 1px solid #f857a6;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
 }
 .form-container .calculate-btn:hover {
-    background-position: right center;
+  background-position: right center;
 }
 .form-container .result--container {
-    text-align: center;
-    width: 80%;
+  text-align: center;
+  width: 80%;
 }
 .checkbox--group {
-    border: none !important;
+  border: none !important;
 }
 .checkbox--field {
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    margin-right: 25px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-right: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .checkbox--field input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    border-radius: 10px;
-    background-color: #cec9ccee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  background-color: #cec9ccee;
 }
 .checkbox--field:hover input ~ .checkmark {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 .checkbox--field input:checked ~ .checkmark {
-    background-image: linear-gradient(
-        to right,
-        #f857a6 0%,
-        #ff5858 51%,
-        #f857a6 100%
-    );
+  background-image: linear-gradient(
+    to right,
+    #f857a6 0%,
+    #ff5858 51%,
+    #f857a6 100%
+  );
 }
 .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+  content: "";
+  position: absolute;
+  display: none;
 }
 .checkbox--field input:checked ~ .checkmark:after {
-    display: block;
+  display: block;
 }
 .checkbox--field .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-        max-width: 800px;
-    }
-    .container .form-container {
-        padding-left: 140px;
-    }
-    .form-container .calculate-btn {
-        margin-left: 125px;
-    }
-    .form-container .result--container {
-        font-size: 20px;
-    }
+  .container {
+    max-width: 770px;
+    margin-top: 130px;
+  }
+  .container .form-container {
+    margin-left: 130px;
+  }
+  .form-container .calculate-btn {
+    margin-left: 100px;
+  }
+  .form-container .result--container {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 570px;
+    margin-top: 30px;
+    min-height: 400px;
+  }
+  .container .form-container {
+    margin-left: 100px;
+  }
+  .form-container .calculate-btn {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    max-width: 320px;
+    margin-left: 10%;
+  }
+  .container .form-container {
+    margin-left: 40px;
+  }
+  .field-group .input--field {
+    width: 170px;
+  }
+  .form-container .calculate-btn {
+    margin-left: 0;
+    width: 230px;
+  }
+  .form-container .result--container {
+    font-size: 15px;
+  }
+  .container .heading-h1 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 270px;
+    margin-left: 5%;
+  }
+  .field-group .input--field {
+    width: 130px;
+  }
+  .form-container .calculate-btn {
+    width: 190px;
+  }
 }

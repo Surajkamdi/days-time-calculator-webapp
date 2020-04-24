@@ -23,7 +23,7 @@ function DaysCalculator() {
         //checkValidations
         checkValidations();
         let totalDays = 0;
-        
+
         if (fromDate !== "" && toDate !== "") {
             const SINGLE_DAY = 1000 * 60 * 60 * 24;
             const differences = Math.abs(fromDate - toDate);
@@ -87,27 +87,19 @@ function DaysCalculator() {
                 <div className="field-group">
                     <label className="field-label">From Date</label>
                     <br />
-                    {/* <input
-                        className="input--field"
-                        type="text"
-                        name="fromDate"
-                        title="Select From Date" /> */}
                     <DatePicker
                         className="input--field"
                         selected={fromDate}
+                        dateFormat="dd-MMMM-yyyy"
                         onChange={date => setFromDate(date)} />
                     <i className="fa fa-calendar" aria-hidden="true"></i>
                 </div>
                 <div className="field-group">
                     <label className="field-label">To Date</label><br />
-                    {/* <input
-                        className="input--field"
-                        type="text"
-                        name="toDate"
-                        title="Select To Date" /> */}
                     <DatePicker
                         className="input--field"
                         selected={toDate}
+                        dateFormat="dd-MMMM-yyyy"
                         onChange={date => setToDate(date)} />
                     <i className="fa fa-calendar" aria-hidden="true"></i>
                 </div>
