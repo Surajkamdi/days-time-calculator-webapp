@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/days-time-calculator-webapp/precache-manifest.96ffb07ea8d382ba74120ad32ae62a5b.js"
+  "/days-time-calculator-webapp/precache-manifest.c94416a40e48ec8b6a45b066545a3aec.js"
 );
 
 self.addEventListener('message', (event) => {

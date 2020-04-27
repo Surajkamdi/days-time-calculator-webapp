@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/days-time-calculator-webapp/static/css/main.92db8804.chunk.css",
-    "main.js": "/days-time-calculator-webapp/static/js/main.6732082a.chunk.js",
-    "main.js.map": "/days-time-calculator-webapp/static/js/main.6732082a.chunk.js.map",
+    "main.css": "/days-time-calculator-webapp/static/css/main.524a232e.chunk.css",
+    "main.js": "/days-time-calculator-webapp/static/js/main.ea5e9474.chunk.js",
+    "main.js.map": "/days-time-calculator-webapp/static/js/main.ea5e9474.chunk.js.map",
     "runtime-main.js": "/days-time-calculator-webapp/static/js/runtime-main.9b894502.js",
     "runtime-main.js.map": "/days-time-calculator-webapp/static/js/runtime-main.9b894502.js.map",
     "static/css/2.b90ce945.chunk.css": "/days-time-calculator-webapp/static/css/2.b90ce945.chunk.css",
     "static/js/2.83c0b856.chunk.js": "/days-time-calculator-webapp/static/js/2.83c0b856.chunk.js",
     "static/js/2.83c0b856.chunk.js.map": "/days-time-calculator-webapp/static/js/2.83c0b856.chunk.js.map",
     "index.html": "/days-time-calculator-webapp/index.html",
-    "precache-manifest.96ffb07ea8d382ba74120ad32ae62a5b.js": "/days-time-calculator-webapp/precache-manifest.96ffb07ea8d382ba74120ad32ae62a5b.js",
+    "precache-manifest.c94416a40e48ec8b6a45b066545a3aec.js": "/days-time-calculator-webapp/precache-manifest.c94416a40e48ec8b6a45b066545a3aec.js",
     "service-worker.js": "/days-time-calculator-webapp/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/days-time-calculator-webapp/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.92db8804.chunk.css.map": "/days-time-calculator-webapp/static/css/main.92db8804.chunk.css.map",
+    "static/css/main.524a232e.chunk.css.map": "/days-time-calculator-webapp/static/css/main.524a232e.chunk.css.map",
     "static/js/2.83c0b856.chunk.js.LICENSE.txt": "/days-time-calculator-webapp/static/js/2.83c0b856.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9b894502.js",
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.83c0b856.chunk.js",
-    "static/css/main.92db8804.chunk.css",
-    "static/js/main.6732082a.chunk.js"
+    "static/css/main.524a232e.chunk.css",
+    "static/js/main.ea5e9474.chunk.js"
   ]
 }
