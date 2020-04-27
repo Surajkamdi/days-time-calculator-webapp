@@ -18,38 +18,50 @@ function TimeCalculator() {
      */
     function calculateTotalTime(event) {
         event.preventDefault();
+        if (checkValidations()) {
+            const totalTime = Math.abs(fromDate - toDate);
+            let seconds = Math.floor((totalTime / 1000) % 60);
+            let minutes = Math.floor((totalTime / (1000 * 60)) % 60);
+            let hours = Math.floor((totalTime / (1000 * 60 * 60)) % 24);
 
-        const totalTime = Math.abs(fromDate - toDate);
-        let seconds = Math.floor((totalTime / 1000) % 60);
-        let minutes = Math.floor((totalTime / (1000 * 60)) % 60);
-        let hours = Math.floor((totalTime / (1000 * 60 * 60)) % 24);
+            if (seconds === 59 || seconds == 60) {
+                seconds = 0;
+                minutes++;
+            }
+            if (minutes === 59 || minutes === 60) {
+                minutes = 0;
+                hours++;
+            }
 
-        if (seconds === 59 || seconds == 60) {
-            seconds = 0;
-            minutes++;
+            let secondsStatement = "";
+            if (seconds !== 0) {
+                secondsStatement = `${seconds} Sec`;
+            }
+
+            let minutesStatement = "";
+            if (minutes !== 0) {
+                minutesStatement = `${minutes} Min`;
+            }
+
+            let hoursStatement = "";
+            if (hours !== 0) {
+                hoursStatement = `${hours} Hrs`;
+            }
+
+            let resultStatement = `${hoursStatement} ${minutesStatement} ${secondsStatement}`;
+            setResult(resultStatement);
         }
-        if (minutes === 59 || minutes === 60) {
-            minutes = 0;
-            hours++;
-        }
+    }
 
-        let secondsStatement = "";
-        if (seconds !== 0) {
-            secondsStatement = `${seconds} Sec`;
+    /**
+    * Form Validations.
+    */
+    function checkValidations() {
+        if (fromDate === "" || toDate === "") {
+            alert("Please select the Time Range...");
+            return false;
         }
-
-        let minutesStatement = "";
-        if (minutes !== 0) {
-            minutesStatement = `${minutes} Min`;
-        }
-
-        let hoursStatement = "";
-        if (hours !== 0) {
-            hoursStatement = `${hours} Hrs`;
-        }
-
-        let resultStatement = `${hoursStatement} ${minutesStatement} ${secondsStatement}`;
-        setResult(resultStatement);
+        return true;
     }
 
     return (

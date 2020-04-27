@@ -99,6 +99,9 @@ html {
     font-size: 14px;
     width: 300px;
   }
+  > i {
+    font-size: 20px;
+  }
 }
 .checkbox--group {
   border: none !important;
@@ -178,6 +181,7 @@ html {
     width: 100%;
     color: white;
     text-align: center;
+    text-shadow: -2px 0px 4px #ff005e;
   }
 }
 
@@ -233,7 +237,7 @@ html {
     margin-left: 40px;
   }
   .field-group .input--field {
-    width: 220px;
+    width: 215px;
   }
   .form-container .calculate-btn {
     margin: auto;
@@ -254,7 +258,7 @@ html {
     margin-left: 20px;
   }
   .field-group .input--field {
-    width: 190px;
+    width: 185px;
   }
   .form-container .calculate-btn {
     width: 220px;
@@ -265,7 +269,7 @@ html {
     width: 280px;
   }
   .field-group .input--field {
-    width: 175px;
+    width: 170px;
   }
   .form-container .calculate-btn {
     width: 200px;

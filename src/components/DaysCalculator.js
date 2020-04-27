@@ -13,6 +13,7 @@ function DaysCalculator() {
     const [result, setResult] = useState(0);
     const [excludeSunday, isExcludeSunday] = useState(false);
     const [excludeSaturday, isExcludeSaturday] = useState(false);
+    const [errorMessage, setErrorMessage] = useState("");
 
     /**
      * Function for calculating Total Days.
@@ -20,28 +21,28 @@ function DaysCalculator() {
      */
     function calculateTotalDays(e) {
         e.preventDefault();
-        //checkValidations
-        checkValidations();
-        let totalDays = 0;
+        if (checkValidations()) {
+            let totalDays = 0;
 
-        if (fromDate !== "" && toDate !== "") {
-            const SINGLE_DAY = 1000 * 60 * 60 * 24;
-            const differences = Math.abs(fromDate - toDate);
-            let total = Math.round(differences / SINGLE_DAY);
-            let excludedSundays = totalWekendDays(0);
-            let excludedSaturdays = totalWekendDays(6);
+            if (fromDate !== "" && toDate !== "") {
+                const SINGLE_DAY = 1000 * 60 * 60 * 24;
+                const differences = Math.abs(fromDate - toDate);
+                let total = Math.round(differences / SINGLE_DAY);
+                let excludedSundays = totalWekendDays(0);
+                let excludedSaturdays = totalWekendDays(6);
 
-            if (excludeSunday && !excludeSaturday) {
-                totalDays = total - excludedSundays;
-                setResult(++totalDays);
-            } else if (!excludeSunday && excludeSaturday) {
-                totalDays = total - excludedSaturdays;
-                setResult(++totalDays);
-            } else if (excludeSunday && excludeSaturday) {
-                totalDays = total - excludedSundays - excludedSaturdays;
-                setResult(++totalDays);
-            } else {
-                setResult(++total);
+                if (excludeSunday && !excludeSaturday) {
+                    totalDays = total - excludedSundays;
+                    setResult(++totalDays);
+                } else if (!excludeSunday && excludeSaturday) {
+                    totalDays = total - excludedSaturdays;
+                    setResult(++totalDays);
+                } else if (excludeSunday && excludeSaturday) {
+                    totalDays = total - excludedSundays - excludedSaturdays;
+                    setResult(++totalDays);
+                } else {
+                    setResult(++total);
+                }
             }
         }
     }
@@ -54,16 +55,16 @@ function DaysCalculator() {
         let weekendDayCount = 0;
         let currenDate = new Date(fromDate);
 
-        if (currenDate.getDay() === dayNumber){
+        if (currenDate.getDay() === dayNumber) {
             weekendDayCount = 1;
         }
 
-        console.log("initial =" +weekendDayCount );
+        console.log("initial =" + weekendDayCount);
         while (currenDate < toDate) {
             currenDate.setDate(currenDate.getDate() + 1);
-            if (currenDate.getDay() === dayNumber){
+            if (currenDate.getDay() === dayNumber) {
                 weekendDayCount++;
-            }       
+            }
         }
         return weekendDayCount;
     }
@@ -71,11 +72,12 @@ function DaysCalculator() {
     /**
      * Form Validations.
      */
-    function checkValidations(){
-        if(fromDate > toDate){
-            alert("From Date should not be greater than To Date");
+    function checkValidations() {
+        if (fromDate === "" || toDate === "") {
+            alert("Please select the Date Range...");
+            return false;
         }
-        return false;
+        return true;
     }
 
     return (
