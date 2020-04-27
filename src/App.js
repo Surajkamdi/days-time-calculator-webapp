@@ -1,5 +1,5 @@
 import React from 'react';
-import './ui-components/css/style.css';
+import './ui-components/css/style-updated.scss';
 import DaysCalculator from './components/DaysCalculator';
 import TimeCalculator from './components/TimeCalculator';
 
